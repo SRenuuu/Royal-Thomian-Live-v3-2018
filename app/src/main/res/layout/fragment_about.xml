@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.roytho.live.AboutFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Developed by,\nSuresh Michael Peiris\n\nLive score updates,\nSTCICTS\n\nText Commentary,\nMedia Unit of STC\n\nPhotography,\nSTCMLPC\n\nLive Stream,\nSTCICTS\nMURCLIVE.COM\n\nCredits for the background image,\nMURCLIVE.COM\n\nThird party Open Sources,\nCircleImageView by Henning Dodenhof\nPicasso by Square, Inc.\nJsoup by, Jonathan Hedley\n\nCloud Infrastructure Partner,\nQuadcone"
+                    android:textAlignment="center"
+                    android:textColor="#000" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/quadcone" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:src="@drawable/credits" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="© 2018 - Royal Thomian Live\nAll Rights Reserved."
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

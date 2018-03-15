@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Royal Thomian Culture" />
+
+        <item
+            android:id="@+id/nav_scorecard"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Scorecard" />
+        <item
+            android:id="@+id/nav_livestream"
+            android:icon="@drawable/ic_videocam_black_24dp"
+            android:title="Livestream" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_tag_faces_black_24dp"
+            android:title="Social Feeds" />
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_camera_alt_black_24dp"
+            android:title="Photo Feed" />
+        <item
+            android:id="@+id/nav_teams"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Team Profiles" />
+    </group>
+
+    <item android:title="More details">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About App" />
+        </menu>
+    </item>
+
+</menu>

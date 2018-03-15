@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.roytho.live.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/mainscorearea"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/stc_cover_res"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="33dp"
+        android:paddingBottom="15dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rclogo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rcdark" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rclogo"
+                android:layout_toLeftOf="@+id/rcovers"
+                android:layout_toStartOf="@+id/rcovers"
+                android:fontFamily="sans-serif-condensed"
+                android:text="ROYAL"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/rcscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_toEndOf="@+id/rclogo"
+                android:layout_toRightOf="@+id/rclogo"
+                android:fontFamily="sans-serif-condensed"
+                android:text="00/0"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/rcovers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rcscore"
+                android:layout_marginLeft="25dp"
+                android:layout_toEndOf="@+id/rclogo"
+                android:layout_toRightOf="@+id/rclogo"
+                android:fontFamily="sans-serif-condensed"
+                android:text="00 // RR: 0.0"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/relativeLayout">
+
+            <TextView
+                android:id="@+id/stcscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_toStartOf="@+id/stclogo"
+                android:layout_toLeftOf="@+id/stclogo"
+                android:fontFamily="sans-serif-condensed"
+                android:text="00/0"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/stcovers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/stcscore"
+                android:layout_marginRight="25dp"
+                android:layout_toLeftOf="@+id/stclogo"
+                android:layout_toStartOf="@+id/stclogo"
+                android:fontFamily="sans-serif-condensed"
+                android:text="00 // RR: 0.0"
+                android:textAlignment="textEnd"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/stclogo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/stcdark"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/stclogo"
+                android:fontFamily="sans-serif-condensed"
+                android:text="STCML"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvBattingTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="BATTING: PENDING"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvInning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvBattingTeam"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-condensed"
+            android:text="139th Battle of the Blues"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/drawercontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></FrameLayout>
+
+</LinearLayout>
