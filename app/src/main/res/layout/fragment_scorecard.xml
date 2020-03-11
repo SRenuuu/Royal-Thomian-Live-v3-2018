@@ -5,7 +5,7 @@
     tools:context="com.roytho.live.ScorecardFragment"
     android:orientation="vertical">
 
-    <android.support.v4.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/scorecard_refresh"
         android:layout_height="match_parent"
         android:layout_width="match_parent">
@@ -126,6 +126,6 @@
         </LinearLayout>
     </TabHost>
 
-    </android.support.v4.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 </LinearLayout>

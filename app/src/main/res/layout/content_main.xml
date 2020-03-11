@@ -149,7 +149,7 @@
             android:layout_below="@+id/tvBattingTeam"
             android:layout_centerHorizontal="true"
             android:fontFamily="sans-serif-condensed"
-            android:text="139th Battle of the Blues"
+            android:text="Battle of the Blues"
             android:textAlignment="center"
             android:textColor="#fff"
             android:textSize="12sp"

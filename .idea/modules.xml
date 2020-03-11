@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RoyThoNew.iml" filepath="$PROJECT_DIR$/RoyThoNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Royal-Thomian-Live-v3-2018.iml" filepath="$PROJECT_DIR$/Royal-Thomian-Live-v3-2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -22,10 +22,6 @@
             android:icon="@drawable/ic_videocam_black_24dp"
             android:title="Livestream" />
         <item
-            android:id="@+id/nav_social"
-            android:icon="@drawable/ic_tag_faces_black_24dp"
-            android:title="Social Feeds" />
-        <item
             android:id="@+id/nav_photos"
             android:icon="@drawable/ic_camera_alt_black_24dp"
             android:title="Photo Feed" />

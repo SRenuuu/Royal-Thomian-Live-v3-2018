@@ -45,10 +45,10 @@ public class TeamsFragment extends Fragment {
         tabs.addTab(spec);
 
         wvFB = v.findViewById(R.id.wvTSTC);
-        wvFB.loadUrl("https://stcicts.org/roytho/team/stc.php");
+        wvFB.loadUrl("https://royal-thomian-live-5e5df.firebaseapp.com/stc_team.html");
 
         wvTW = v.findViewById(R.id.wvTRC);
-        wvTW.loadUrl("https://stcicts.org/roytho/team/rc.php");
+        wvTW.loadUrl("https://royal-thomian-live-5e5df.firebaseapp.com/rc_team.html");
 
         return v;
     }

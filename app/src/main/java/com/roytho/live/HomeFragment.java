@@ -1,18 +1,18 @@
 package com.roytho.live;
 
 
-import android.os.Bundle;
 import android.app.Fragment;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.NonNull;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.roytho.live.home.CommentaryFragment;
 import com.roytho.live.home.LiveScoreFragment;
-import com.roytho.live.home.NewsFragment;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -48,10 +48,6 @@ public class HomeFragment extends Fragment {
                         fragment = new LiveScoreFragment();
                         setHomeView(fragment);
                         return true;
-                     case R.id.navigation_news:
-                         fragment = new NewsFragment();
-                         setHomeView(fragment);
-                         return true;
                 }
                 return false;
             }

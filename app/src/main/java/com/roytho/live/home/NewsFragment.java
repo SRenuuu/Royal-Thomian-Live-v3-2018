@@ -1,12 +1,13 @@
 package com.roytho.live.home;
 
 
-import android.os.Bundle;
 import android.app.Fragment;
-import android.support.v7.widget.RecyclerView;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.roytho.live.R;
 import com.roytho.live.home.news.ReadNews;
